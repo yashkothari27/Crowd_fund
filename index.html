@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Token Crowdfunding dApp</title>
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h2>Token Crowdfund</h2>
+  <p>Contribute Tokens:</p>
+  <input id="amount" placeholder="Amount" />
+  <button onclick="contribute()">Contribute</button>
+  <br/><br/>
+  <button onclick="claimFunds()">Claim Funds (Owner)</button>
+  <button onclick="refund()">Refund (if failed)</button>
+</body>
+</html>
